@@ -1,0 +1,15 @@
+api:
+  ollama:
+    base_url: http://localhost:11434 # Ollama base API url
+    timeout: 60
+  openai:
+    api_key: sk-proj-123 # Your OpenAI API key
+    timeout: 60
+ui:
+  theme: dark
+  sidebar_width: 35
+  message_padding: 2
+storage:
+  conversations_dir: ~/.cmdai-terminal/conversations
+default_model: openai/gpt-4o
+last_model: openai/gpt-4o
