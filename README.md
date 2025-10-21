@@ -1,4 +1,4 @@
-# 🎨 cmdAI Terminal v1.0
+# <img src="screenshots/cmdai-logo.png" alt="cmdAI Logo" width="40" style="vertical-align: middle;"> cmdAI Terminal v1.0
 
 > A familiar and easy to use terminal interface for OpenAI and/or Ollama
 
