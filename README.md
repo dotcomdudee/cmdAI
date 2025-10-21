@@ -43,15 +43,37 @@ cmdAI Terminal brings the elegance of modern chat interfaces to your terminal, w
 
 ## 🚀 Quick Start
 
-### Installation
+### One-Line Installation
+
+Visit **[cmdai.io](https://cmdai.io)** or run:
 
 ```bash
-# Quick install
+curl -fsSL https://cmdai.io/install.sh | bash
+```
+
+<details>
+<summary>Alternative installation methods</summary>
+
+**Using wget:**
+```bash
+wget -qO- https://cmdai.io/install.sh | bash
+```
+
+**Manual Installation:**
+
+```bash
+# Clone the repository
+git clone https://github.com/dotcomdudee/cmdAI.git
+cd cmdAI
+
+# Install
 pip install -e .
 
 # Or install dependencies manually
 pip install textual rich httpx pyyaml
 ```
+
+</details>
 
 ### Configuration
 
